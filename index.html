@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="wspbot.css">
+    <title>EG Desarrollador De Software</title>
+</head>
+
+<body>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=3412714029&text=Hola Ezequiel Me gustaria contactarme contigo" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+
+
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/EG/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                     
+                        <a href="https://www.facebook.com/EzePrograma/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ezegz1"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Ezequiel Gonzalez</span>, Desarrollador De Software</h2>
+                <!-- <p class="descripcion">Trabajos con las ultimas tecnologias </p> -->
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <!-- <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="WhatsApp Image 2023-01-29 at 18.09.01.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Ezequiel Gonzalez</span> </h2>
+            <h3>Desarrollador De Software</h3>
+            <a href="Gonzalez Ezequiel.cv1.pdf">Descargar CV</a>
+        </div>
+    </section> -->
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="WhatsApp Image 2023-01-29 at 18.09.01.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Ezequiel Gonzalez</span> </h2>
+            <h3>Desarrollador De Software</h3>
+    
+            <!-- Sección de Certificaciones -->
+            <div class="certificaciones">
+                <p class="titulo-seccion">Certificaciones</p>
+                <ul>
+                    <li> <a href="certificado1.pdf" target="_blank">Certificado de Inglés - ingles nivel 1 CUI-UBA A.1.1</a> </li>
+                    <li> <a href="certificado2.pdf" target="_blank">Certificado de Inglés - ingles nivel 2 CUI-UBA A.1.2 </a> </li>
+                </ul>
+            </div>
+            
+            <!-- Descargar CV -->
+            <a href="cv-developer2024.pdf" class="descargar-cv">Descargar CV</a>
+        </div>
+    </section>
+    
+
+
+
+
+
+   <!-- SECCION S E R V I C I O S -->
+   <section id="servicios">
+    <h3 class="titulo-seccion">Mis servicios como <strong>Desarrollador de Software</strong></h3>
+    <div class="fila">
+        <div class="servicio">
+            <span class="icono"> <i class="fa-solid fa-code"></i></span>
+            <h4>Desarrollo Frontend con Angular, Ionic y Bootstrap</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Interfaces atractivas y funcionales</li>
+                <li>Experiencia de Usuario (UX) centrada en el usuario</li>
+            </ul>
+            <p>Creación de experiencias web y móviles excepcionales con Angular, Ionic y Bootstrap.</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+            <h4>Desarrollo Backend con Node.js y Express</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Construcción de servidores robustos</li>
+                <li>Optimización del rendimiento del servidor</li>
+            </ul>
+            <p>Implementación de soluciones backend eficientes utilizando Node.js y Express.</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+            <h4>Manejo de Bases de Datos</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>MongoDB para bases de datos NoSQL</li>
+                <li>Conocimientos en MySQL para estructuras relacionales</li>
+            </ul>
+            <p>Experiencia en la gestión de bases de datos, desde MongoDB para flexibilidad hasta MySQL para estructuras relacionales.</p>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-database"></i></span>
+            <h4>Optimización del Rendimiento</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Mejora continua de la eficiencia del servidor</li>
+                <li>Optimización de sitios web y aplicaciones móviles</li>
+            </ul>
+            <p>Dedicado a garantizar la eficiencia del servidor y la optimización constante de sitios web y aplicaciones móviles.</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-laptop-code"></i></span>
+            <h4>Desarrollo de Lógica con JavaScript y TypeScript</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Implementación de lógica robusta</li>
+                <li>Uso avanzado de TypeScript para mayor seguridad</li>
+            </ul>
+            <p>Manejo experto de JavaScript y TypeScript para desarrollar lógica eficiente y segura en tus proyectos.</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-comments"></i></span>
+            <h4>Comunicación Efectiva con Clientes</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Capacidad para comprender las necesidades del cliente</li>
+                <li>Excelente habilidad de comunicación</li>
+            </ul>
+            <p>Destreza para plasmar las ideas del cliente y una comunicación efectiva que garantiza la satisfacción del cliente en cada proyecto.</p>
+        </div>
+    </div>
+</section>
+
+
+ <!-- SECCION H A B I L I D A D E S -->
+<div class="contenedor-skills" id="skills">
+    <h3>HABILIDADES</h3>
+    <div class="skill">
+        <div class="info">
+            <i class="fab fa-angular fa-3x"></i>
+            <p>Angular</p>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <i class="fas fa-mobile-alt fa-3x"></i>
+            <p>Ionic</p>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <i class="fab fa-bootstrap fa-3x"></i>
+            <p>Bootstrap</p>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <i class="fab fa-js fa-3x"></i>
+            <p>JavaScript y TypeScript</p>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <i class="fas fa-database fa-3x"></i>
+            <p>MongoDB</p>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <i class="fab fa-node fa-3x"></i>
+            <p>Node.js y Express</p>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <i class="fab fa-git fa-3x"></i>
+            <p>Git y GitHub</p>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <br>
+        <h4>Todos los proyectos fueron realizados en Angular-Ionic para el backend y en Node y Mongo Db para el backend y el guardado de datos ( algunas aplicaciones fueron subidas a la playstore )</h4>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto para bar familiar</h4>
+                    <p>Minimalista con estilo moderno, la mision fue simplificar el menu para los clientes a traves de un qr</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proyecto2.png" alt="">
+                <div class="info">
+                    <h4>Proyecto para casa de venta de autos</h4>
+                    <p>En este caso el proyecto ya estaba en marcha pero hubo que agilizar las busquedas y crear nuevos filtros a pedido del usuario</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proyecto 3.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto para Eccomerce de venta de ropa</h4>
+                    <p>Simple y informativo con un carrito de compras</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proycto4.jpg" alt="">
+                <div class="info">
+                    <h4>Portafolio para web developer</h4>
+                    <p>Estaba arrancando y queria un proyecto donde pueda mostrar su cv y sus skills</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto para BAR</h4>
+                    <p>Moderno y Clasico, con mucho mas presupuesto que al anterior en este se agrego pasarela de pago sumado al carrito de compras con envios a domicilio</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto para Eccomerce de Tienda NATURAL</h4>
+                    <p>El enfoque fue Moderno y con la necesidad de agilizar la compra del usuario</p>
+                </div>
+            </div>
+        </div>
+        
+            </div>
+            
+            </div>
+        </div>
+    </section>
+
+ 
+    
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="https://www.facebook.com/EzePrograma/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ezegonzalez.19/"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
